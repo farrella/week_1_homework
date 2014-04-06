@@ -3,6 +3,33 @@ body {
   font-size: 16pt;
 }
 
+h1 {
+  font-family: "Computer Modern Serif";
+  font-size: 30pt;
+  letter-spacing: 10;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: "Computer Modern Serif";
+  font-size: 16pt;
+  letter-spacing: 3;
+  text-align: center;
+  font-style: italic;
+}
+
+blockquote {
+  font-family: "Computer Modern Serif";
+  font-size: 16pt;
+  text-align: justify;
+  font-style: italic;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 5;
+}
+
 
 /* ----------------------------------------------------------------- */
 /* The scary stuff below is just to get the right font loaded up.    */
