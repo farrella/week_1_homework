@@ -2,13 +2,13 @@ body {
   font-family: "Computer Modern Serif";
   font-size: 16pt;
   margin-top: 100;
-  margin-left: 25;
-  margin-right: 25;
+  margin-left: 125;
+  margin-right: 125;
 }
 
 h1 {
   font-family: "Computer Modern Serif";
-  font-size: 36pt;
+  font-size: 30pt;
   letter-spacing: 10;
   text-align: center;
 }
@@ -19,6 +19,16 @@ h1 {
   letter-spacing: 3;
   text-align: center;
   font-style: italic;
+}
+
+footer{
+  text-align: right;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+a{
+  text-decoration: none;
 }
 
 blockquote {
@@ -36,39 +46,57 @@ h2 {
   font-size: 24;
   border-top-style: solid;
   border-top-color: black;
+  border-top-width: thin;
   border-bottom-style: solid;
   border-bottom-width: thin; 
+}
+
+dt {
+  float: left;
+  width: 150px;
+}
+
+dd {
+  margin-left: 200px;
 }
 
 small{
   font-size: 16;
   text-transform: none;
   font-style: italic;
-  letter-spacing: 2;
+  letter-spacing: 1;
 }
 
 table,th,td{
   border-style: solid;
   border-color:  lightgrey;
   border-width: thin;
-  font-family: arial;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 960px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 24;
 }
 
 th{
   color: lightgrey;
+  background: black;
 }
 
 table{
   border-collapse: collapse;
 }
 
+.odd_week{
+  background-color: lavender;
+}
+
 .week{
   -webkit-transform: rotate(-90deg);
   text-transform: uppercase;
-
+  font-family: arial;
+  width: 100px;
+  text-align: center;
 }
 
 /* ----------------------------------------------------------------- */
