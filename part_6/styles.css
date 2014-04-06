@@ -47,14 +47,20 @@ small{
   letter-spacing: 2;
 }
 
-table{
+table,th,td{
   border-style: solid;
   border-color:  lightgrey;
   border-width: thin;
-  
+  font-family: arial;
 }
 
+th{
+  color: lightgrey;
+}
 
+.week{
+-webkit-transform: rotate(-90deg);
+}
 
 /* ----------------------------------------------------------------- */
 /* The scary stuff below is just to get the right font loaded up.    */
